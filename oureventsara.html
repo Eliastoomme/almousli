@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Al-Mousli</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" size="48x48" href="./img/logo.png">
+
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./script/aos.js"></script>
+
+    <style>
+        .HomePage {
+            height: auto;
+            background: none;
+        }
+        
+        .WhoAreWeInfo {
+            position: absolute;
+            left: auto;
+            transform: none;
+            margin-left: 3%;
+            right: 8%;
+        }
+        
+        .WhoAreWetxt {
+            width: auto;
+            margin-top: 4%;
+        }
+        
+        .WhoAreWetxt ul {
+            list-style: none;
+            background: rgba(246, 198, 22, 0.842);
+            border-radius: 25px;
+        }
+        
+        .WhoAreWetxt ul::before {
+            content: '';
+            width: 50px;
+            height: 35px;
+            position: absolute;
+            right: 125px;
+            top: -15px;
+            background: rgba(246, 198, 22, 0.842);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            z-index: -1;
+        }
+        
+        .WhoAreWetxt ul::after {
+            content: '';
+            background: url(./ICONS/quotation.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 40px;
+            top: -15px;
+            transform: rotateY(180deg);
+            z-index: -1;
+        }
+        
+        .WhoAreWetxt ul li {
+            padding: 10px 10px;
+        }
+        
+        .WhoAreWetxt ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .line {
+            float: left;
+        }
+        
+        .footer .contact ul li {
+            direction: ltr;
+        }
+        
+        .footer .social {
+            text-align: right;
+            direction: ltr;
+        }
+        
+        @media screen and (max-width:768px) {
+            .WhoAreWe {
+                width: 100%;
+                height: 100vh;
+            }
+            .WhoAreWeInfo {
+                margin-top: 15%;
+                right: 10%;
+            }
+            .WhoAreWeInfo h1 {
+                text-align: center;
+            }
+            .WhoAreWetxt {
+                margin-top: auto;
+                width: auto;
+                height: auto;
+            }
+            .WhoAreWetxt ul::before {
+                right: 50px;
+            }
+            .WhoAreWetxt ul {
+                text-align: right;
+            }
+            .footer .store ul li a {
+                font-weight: 500;
+            }
+            .footer h3 {
+                font-size: 1.2rem;
+            }
+            .footer .social {
+                text-align: center;
+                margin-right: -5%;
+            }
+        }
+    </style>
+</head>
+
+<body style="direction: rtl;">
+    <!-- -------------------HOME PAGE--------------- -->
+
+    <section class="HomePage" data-aos="fade-up" id="HomePage">
+        <div class="fixedDiv"></div>
+        <nav class="navbar navbar-expand-lg navbar-light navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navList ">
+                    <li class="nav-item active halfnav leftnav">
+                        <a class="nav-link" href="./index.html">الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item logoPlace">
+                        <a class="nav-link" href="#"><img src="./img/logo.png" alt="" width="auto" height="120" style="transform: translateY(0) !important;"></a>
+                    </li>
+
+                    <li class="nav-item halfnav rightnav">
+                        <a class="nav-link" href="#footer">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="WhoAreWe" id="WhoAreWe" data-aos="fade-up">
+            <div class="fixedPos"></div>
+            <div class="WhoAreWeInfo ">
+                <h1 style="font-family: PoppinsB;">فعالياتنا</h1>
+                <h4 style="font-family: Pacifico;color:#fff">فعاليات</h4>
+                <img src="./ICONS/Group 13@2x.png" alt="" width="100" height="auto">
+            </div>
+            <div class="WhoAreWetxt">
+                <ul>
+                    <li>
+                        انتظرونا في فعاليات قادمة قريبا!
+                        <a href="#">عرض المزيد</a> </li>
+
+                </ul>
+            </div>
+
+        </section>
+    </section>
+
+    <footer class="footer" id="footer" style="direction: rtl;">
+        <div class="container">
+            <div class="row">
+                <div class="col md-6 information">
+                    <img src="./img/logo.png" alt="" width="100" height="auto" data-aos="fade-right" data-aos-easing="ease-in-out">
+                    <p data-aos="fade-up"> لمحة عن مؤسسة كريم الموصلي التجارية: تم تأسيس مؤسستنا لصاحبها كريم الموصلي في عام 2015 في الجمهورية اللبنانية ومن ثم انتقلنا لفتح مؤسستنا في بلدنا الحبيب سورية في عام 2018 واستطعنا أن ندخل السوق المحلي وأن نحقق نجاحا الى أن وصلنا لمراحل
+                        متقدمة ومنافسة
+
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Almousli-100462051659060/" target="_/blank"><i class="fa fa-facebook animated jello"></i></a>
+                        <a href="https://wa.me/963955639595" target="_/blank"><i class="fa fa-whatsapp animated jello"></i></a>
+                        <a href="https://www.instagram.com/almouslico/?hl=en" target="_/blank"><i class="fa fa-instagram animated jello"></i></a>
+                    </div>
+                </div>
+                <div class="col md-6 store">
+                    <h3 data-aos="fade-up">معلومات عنا</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-right" data-aos-easing="ease-in-out">
+                        <li><a href="./index.html"> عنا</a>
+                        </li>
+                        <li><a href="./index.html">من نحن</a>
+                        </li>
+                        <li>
+                            <a href="./allproductsara.html">
+                            منتجاتنا</a></li>
+                    </ul>
+                </div>
+                <div class="col md-6 contact">
+                    <h3 data-aos="fade-down">معلومات التواصل</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-left">
+                        <li>
+                            <img src="./ICONS/phone (3).png" alt="" width="35" height="auto"> <a href="tel:+963955639595"> +963 955 639 595 </a>
+                        </li>
+                        <li>
+                            <img src="./ICONS/pin (1).png" alt="" width="40" height="auto" style="margin-left: -2%;"> الميدان-دمشق-سورية
+                        </li>
+                        <li>
+                            <img src="./ICONS/mail (3).png" alt="" width="35" height="auto"><a href="mailto:almouslico@gmail.com"> almouslico@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init()
+</script>
+
+</html>

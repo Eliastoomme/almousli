@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Al-Mousli</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" size="48x48" href="./img/logo.png">
+
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js" defer></script>
+    <script src="./script/aos.js"></script>
+    <style>
+        /*H2 FONT */
+        
+        @import url('https://fonts.googleapis.com/css?family=Lalezar|Rakkas|Tajawal&display=swap');
+        /*body font */
+        
+        @import url('https://fonts.googleapis.com/css?family=Rakkas|Tajawal&display=swap');
+        /*H4 FONT*/
+        
+        @import url('https://fonts.googleapis.com/css?family=Rakkas&display=swap');
+        body {
+            font-family: 'Tajawal', 'cursive';
+        }
+        
+        body h2,
+        body h1 {
+            font-family: 'Lalezar', 'cursive';
+        }
+        
+        body h4 {
+            font-family: 'Rakkas', 'cursive';
+        }
+        
+        .InfoContainer {
+            margin-top: 8%;
+        }
+        
+        .ourPname {
+            margin-left: 7%;
+        }
+        
+        .ourPdesc {
+            margin-left: 5%;
+        }
+        
+        .txtInput {
+            direction: rtl;
+        }
+        
+        .line {
+            float: left;
+        }
+        
+        .footer .contact ul li {
+            direction: ltr;
+        }
+        
+        .footer .social {
+            text-align: right;
+            direction: ltr;
+        }
+        
+        .DownImg {
+            right: -43px;
+            top: 60%;
+        }
+        
+        .WhoAreWeInfo h4 {
+            left: auto;
+            transform: none;
+            text-align: center;
+        }
+        
+        @media screen and (max-width:768px) {
+            .DownImg {
+                right: 25px;
+                height: 65px;
+                z-index: auto;
+            }
+            .topInfo {
+                text-align: center;
+            }
+            .bottom h4 {
+                margin-right: 15%;
+            }
+            .AboutUsPage {
+                direction: rtl;
+            }
+            .about {
+                text-align: right;
+            }
+            .WhoAreWeInfo {
+                text-align: center;
+            }
+            .store {
+                font-size: 1.3rem;
+                text-align: right;
+            }
+            .contact {
+                font-size: 1.3rem;
+                text-align: right;
+            }
+            .txtArea p {
+                text-align: right;
+            }
+            .AboutImg {
+                right: 50px;
+                height: 250px;
+            }
+            .about img {
+                height: 80px;
+            }
+            .line {
+                float: right;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- -------------------HOME PAGE--------------- -->
+
+    <section class="HomePage" data-aos="fade-up" id="HomePage">
+        <nav class="navbar navbar-expand-lg navbar-light navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navList ">
+                    <li class="nav-item active halfnav leftnav">
+                        <a class="nav-link" href="#AboutUsPage">عنا <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item halfnav leftnav">
+                        <a class="nav-link" href="#WhoAreWe">من نحن</a>
+                    </li>
+
+                    <li class="nav-item halfnav leftnav">
+                        <a class="nav-link" href="./en.html">English <img src="./img/en.png" alt="" width="50" height="auto" style="float: right;"></a>
+                    </li>
+                    <li class="nav-item logoPlace">
+                        <a class="nav-link" href="#"><img src="./img/logo.png" alt="" width="auto" height="120" style="transform: translateY(0) !important;"></a>
+                    </li>
+                    <li class="nav-item halfnav rightnav">
+                        <a class="nav-link" href="#OurProducts">منتجاتنا</a>
+                    </li>
+                    <li class="nav-item halfnav rightnav">
+                        <a class="nav-link" href=".//oureventsara.html">فعالياتنا</a>
+                    </li>
+                    <li class="nav-item halfnav rightnav">
+                        <a class="nav-link" href="#ContactUs">اتصل بنا</a>
+                    </li>
+
+            </div>
+        </nav>
+        <div class=" InfoContainer">
+            <div class="topInfo" data-aos="fade-up">
+                <h1 class="name">الموصلي</h1>
+                <h4>للخدمات الغذائية</h4>
+            </div>
+            <div class="half" data-aos="fade-down">
+                <img src="./ICONS/Group 13.png" alt="" width="150" height="auto">
+            </div>
+            <div class="bottom">
+                <h4 class="animated bounce">تابعنا أكثر</h4>
+                <a href="https://www.facebook.com/Almousli-100462051659060/" target="_/blank"><i class="fa fa-facebook animated jello"></i></a>
+                <a href="https://wa.me/963955639595" target="_/blank"><i class="fa fa-whatsapp animated jello"></i></a>
+                <a href="https://www.instagram.com/almouslico/?hl=en" target="_/blank"><i class="fa fa-instagram animated jello"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------ABOUT US PAGE--------------- -->
+    <section class="AboutUsPage" id="AboutUsPage" data-aos="fade-up">
+        <div class="container">
+            <div class="about">
+                <img src="./ICONS/Path 17.png" alt="" width="auto" height="100" class="aletter">
+                <h2>عنا</h2>
+                <h3 class="aboutm">لمحة عن الموصلي</h3>
+            </div>
+            <div class="row AboutArea">
+                <div class="col">
+                    <div class="txtArea" data-aos="fade-down">
+                        <p style="direction: rtl;">
+                            لمحة عن مؤسسة كريم الموصلي التجارية: تم تأسيس مؤسستنا لصاحبها كريم الموصلي في عام 2015 في الجمهورية اللبنانية ومن ثم انتقلنا لفتح مؤسستنا في بلدنا الحبيب سورية في عام 2018 واستطعنا أن ندخل السوق المحلي وأن نحقق نجاحا الى أن وصلنا لمراحل متقدمة ومنافسة
+                            ضمن المنتجات التي نقوم بإنتاجها من خلال أسعارنا المدروسة بدقة والجودة العالية للمنتجات واننا في تطور دائم ومستمر. وكذلك انتقاءنا للمواد الأولية بكل عناية. واننا في تطور مستمر بما فيه فائدة ومنفعة للجميع. </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/welcome-up-img.png" alt="" width="auto" height="400" class="AboutImg" data-aos="fade-up">
+                    <img src="./img/welcome-down-img.png" alt="" width="auto" height="120" class="DownImg" data-aos="fade-down">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------WHO ARE WE PAGE--------------- -->
+    <section class="WhoAreWe" id="WhoAreWe" data-aos="fade-up">
+        <div class="fixedPos"></div>
+        <div class="WhoAreWeInfo ">
+            <h1>من نحن</h1>
+            <h4 style="color:#fff">الموصلي</h4>
+            <img src="./ICONS/Group 13@2x.png" alt="" width="100" height="auto">
+        </div>
+        <div class="WhoAreWetxt">
+            <p style="direction:rtl">
+                تعمل مؤسسة كريم الموصلي التجارية في مجال تجارة المواد الأولية الخاصة بالمواد الغذائية (سكر-زيت نباتي-أرز بأنواعه-بقوليات وحبوب-زيت زيتون-زعتر-سمن-شاي)
+            </p>
+        </div>
+
+    </section>
+    <!-- -------------------OUR PRODUCTS PAGE--------------- -->
+    <section class="OurProducts" id="OurProducts">
+        <img src="./img/pngfuejl.com.png" alt="" width="250" height="auto" class="leftImg" data-aos="fade-right">
+        <div class="OurPInfo" data-aos="fade-up">
+            <img src="./img/pngfuejl.com.png" alt="" width="250" height="auto" class="sm" data-aos="fade-down">
+            <img src="./ICONS/Path 17.png" alt="" width="50" height="auto" class="ourPimg">
+            <h3 class="ourPname">منتجاتنا</h3>
+            <h4 class="ourPdesc">كل ما تحتاجه</h4>
+        </div>
+
+        <div class="ImgContainer container" data-aos="fade-down" style="direction: rtl;">
+            <div class=" Pnavigation getCentered" id="ProdNav">
+                <a href="./allproductsara.html " data-filter="all" class="Pbtn active"> الكل</a>
+                <a data-filter="one " class="Pbtn  ">بقوليات</a>
+                <a data-filter="two " class="Pbtn ">زعتر</a>
+                <a data-filter="three " class="Pbtn none">بودرة</a>
+                <button class="btn" id="moreBtn">></button>
+                <a data-filter="four " class="Pbtn none">زيوت</a>
+                <a data-filter="five " class="Pbtn none">بهارات</a>
+                <a data-filter="six " class="Pbtn none">مواد أخرى</a>
+
+                <button class="btn none" id="lessBtn">&#60;</button>
+            </div>
+            <div class="container ProcContainer">
+                <div class="filter one ">
+                    <img src="./AlmousliImg/20.jpg" alt=" " class="img-fluid ">
+                    <p>سمسم أبيض</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/19.jpeg" alt=" " class="img-fluid ">
+                    <p>سمسم محمص</p>
+
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/24.jpg" alt=" " class="img-fluid ">
+                    <p>طحينة</p>
+
+                </div>
+                <div class="filter two">
+                    <img src="./AlmousliImg/13.jpg" alt=" " class="img-fluid ">
+                    <p>زعتر</p>
+
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/5.jpg" alt=" " class="img-fluid ">
+                    <p>حلاوة</p>
+
+                </div>
+                <div class="filter five ">
+                    <img src="./AlmousliImg/4.jpg" alt=" " class="img-fluid ">
+                    <p>حبة بركة</p>
+
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/3.jpeg" alt=" " class="img-fluid ">
+                    <p>جوز الهند</p>
+
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/32.jpg" alt=" " class="img-fluid ">
+                    <p>كاكاو</p>
+
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/39.jpg" alt=" " class="img-fluid ">
+                    <p>ورق غار</p>
+
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/31.jpg" alt=" " class="img-fluid ">
+                    <p>فول</p>
+
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/7.jpg" alt=" " class="img-fluid ">
+                    <p>حمص</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/28.jpg" alt=" " class="img-fluid ">
+                    <p>عدس</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/27.jpg" alt=" " class="img-fluid ">
+                    <p>عدس مجروش</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/1.jpg" alt=" " class="img-fluid ">
+                    <p>برغل</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/10.jpg" alt=" " class="img-fluid ">
+                    <p>ذرة</p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/38.jpg" alt=" " class="img-fluid ">
+                    <p>نشاء الذرة</p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/9.jpg" alt=" " class="img-fluid ">
+                    <p>خميرة فورية</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/12.jpg" alt=" " class="img-fluid ">
+                    <p>زبدة طيبة</p>
+                </div>
+                <div class="filter four ">
+                    <img src="./AlmousliImg/15.jpg" alt=" " class="img-fluid ">
+                    <p>زيت سولينا</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/21.jpg" alt=" " class="img-fluid ">
+                    <p>سمنة</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/26.jpg" alt=" " class="img-fluid ">
+                    <p>عجوة</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/30.jpg" alt=" " class="img-fluid ">
+                    <p>فريكة</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/35.jpg" alt=" " class="img-fluid ">
+                    <p>محلب حب</p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/33.jpg" alt=" " class="img-fluid ">
+                    <p>محسن خبز</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/36.jpg" alt=" " class="img-fluid ">
+                    <p>ملح صخري</p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/2.jpg" alt=" " class="img-fluid ">
+                    <p>بيكربونات الصوديوم </p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/8.jpg" alt=" " class="img-fluid ">
+                    <p>حمض الليمون</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/11.jpg" alt=" " class="img-fluid ">
+                    <p>رز</p>
+                </div>
+                <div class="filter four ">
+                    <img src="./AlmousliImg/14.jpg" alt=" " class="img-fluid ">
+                    <p>زيت زيتون</p>
+                </div>
+                <div class="filter three ">
+                    <img src="./AlmousliImg/6.jpg" alt=" " class="img-fluid ">
+                    <p>حليب بودرة كامل الدسم</p>
+                </div>
+                <div class="filter one ">
+                    <img src="./AlmousliImg/29.jpg" alt=" " class="img-fluid ">
+                    <p>فاصولياء</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/37.jpg" alt=" " class="img-fluid ">
+                    <p>ملوخية</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/22.jpg" alt=" " class="img-fluid ">
+                    <p>شاي</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/23.jpg" alt=" " class="img-fluid ">
+                    <p>طحين</p>
+                </div>
+                <div class="filter six ">
+                    <img src="./AlmousliImg/18.jpg" alt=" " class="img-fluid ">
+                    <p>سكر</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- -------------------CONTACT US PAGE--------------- -->
+
+    <section class="ContactUs" id="ContactUs">
+        <div class="ContactInfo" data-aos="fade-up">
+            <img src="./ICONS/Path 17.png" alt="" width="50" height="auto">
+            <h2>اتصل بنا</h2>
+            <h4>تواصل</h4>
+        </div>
+        <div class="fixedDiv"></div>
+        <form method="POST">
+            <div class="container CU">
+                <div class="row justify-content-between">
+                    <div class="txtInput col-6 getRemoved">
+                    </div>
+                    <div class="txtInput col-6 getEdited" data-aos="fade-down">
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="text" name="txtName" class="form-control" placeholder="الاسم الأول" value required>
+                            </div>
+                            <div class="form-group col">
+                                <input type="text" name="txtName" class="form-control" placeholder="الاسم الأخير" value required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="ايميل" value required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control txtMsg" placeholder="رسالتك لنا" style="width: 100%; height: 150px;"></textarea> </div>
+                        <a class="btn sendBtn" href="mailto:almouslico@gmail.com">أرسل</a>
+
+                    </div>
+                </div>
+        </form>
+
+    </section>
+
+    <!-- -------------------FOOTER SECTION--------------- -->
+    <footer class="footer" id="footer" style="direction: rtl;">
+        <div class="container">
+            <div class="row">
+                <div class="col md-6 information">
+                    <img src="./img/logo.png" alt="" width="100" height="auto" data-aos="fade-right" class="no-fade">
+                    <p data-aos="fade-up">
+                        زيارتكم لموقعنا قيمة مضافة لمؤسستنا. تجدون طلباتكم المفصلة عندنا والسعر الاقتصادي لدينا مع تحياتنا----المدير العام كريم الموصلي
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Almousli-100462051659060/" target="_/blank"><i class="fa fa-facebook animated jello"></i></a>
+                        <a href="https://wa.me/963955639595" target="_/blank"><i class="fa fa-whatsapp animated jello"></i></a>
+                        <a href="https://www.instagram.com/almouslico/?hl=en" target="_/blank"><i class="fa fa-instagram animated jello"></i></a>
+                    </div>
+                </div>
+                <div class="col md-6 store">
+                    <h3 data-aos="fade-up">معلومات عنا</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-right" class="no-fade" data-aos-easing="ease-in-out">
+                        <li><a href="#AboutUsPage"> عنا</a>
+                        </li>
+                        <li><a href="#WhoAreWe">من نحن</a>
+                        </li>
+                        <li>
+                            <a href="#OurProducts">
+                            منتجاتنا</a></li>
+                    </ul>
+                </div>
+                <div class="col md-6 contact">
+                    <h3 data-aos="fade-down">معلومات التواصل</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-left" class="no-fade">
+                        <li>
+                            <img src="./ICONS/phone (3).png" alt="" width="35" height="auto"> <a href="tel:+963955639595"> +963 955 639 595 </a>
+                        </li>
+                        <li>
+                            <img src="./ICONS/pin (1).png" alt="" width="40" height="auto" style="margin-left: -2%;"> الميدان-دمشق-سورية
+                        </li>
+                        <li>
+                            <img src="./ICONS/mail (3).png" alt="" width="35" height="auto"><a href="mailto:almouslico@gmail.com"> almouslico@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-copyright text-center py-3" style="direction: ltr;">© 2020 Copyright:
+                <a href="http://larimar.media/" style="color:#F6C416" target="_/blank">Larimar Media. </a> All Right Reserved
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript ">
+    AOS.init();
+</script>
+
+
+</html>

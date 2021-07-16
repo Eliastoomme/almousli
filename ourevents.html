@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Al-Mousli</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" size="48x48" href="./img/logo.png">
+
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./script/aos.js"></script>
+
+    <style>
+        .HomePage {
+            height: auto;
+            background: none;
+        }
+        
+        .WhoAreWeInfo {
+            position: absolute;
+            left: auto;
+            transform: none;
+            margin-left: 3%;
+        }
+        
+        .WhoAreWetxt {
+            width: 60%;
+            height: 30%;
+            margin-top: 4%;
+        }
+        
+        .WhoAreWetxt ul {
+            list-style: none;
+            background: rgba(246, 198, 22, 0.842);
+            border-radius: 25px;
+        }
+        
+        .WhoAreWetxt ul::before {
+            content: '';
+            width: 50px;
+            height: 35px;
+            position: absolute;
+            left: 125px;
+            top: -15px;
+            background: rgba(246, 198, 22, 0.842);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            z-index: -1;
+        }
+        
+        .WhoAreWetxt ul::after {
+            content: '';
+            background: url(./ICONS/quotation.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            right: 40px;
+            top: -15px;
+        }
+        
+        .WhoAreWetxt ul li {
+            padding: 10px 10px;
+        }
+        
+        .WhoAreWetxt ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        @media screen and (max-width:768px) {
+            .WhoAreWeInfo {
+                margin-left: 12%;
+                margin-bottom: 3%;
+            }
+            .WhoAreWetxt {
+                margin-top: auto;
+                width: auto;
+                height: auto;
+            }
+            .WhoAreWetxt ul::before {
+                left: 90px;
+            }
+            .WhoAreWetxt ul {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- -------------------HOME PAGE--------------- -->
+
+    <section class="HomePage" data-aos="fade-up" id="HomePage">
+        <div class="fixedDiv"></div>
+        <nav class="navbar navbar-expand-lg navbar-light navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navList ">
+                    <li class="nav-item active halfnav leftnav">
+                        <a class="nav-link" href="./en.html">Home Page <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item logoPlace">
+                        <a class="nav-link" href="#"><img src="./img/logo.png" alt="" width="auto" height="120" style="transform: translateY(0) !important;"></a>
+                    </li>
+
+                    <li class="nav-item halfnav rightnav">
+                        <a class="nav-link" href="#footer">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="WhoAreWe" id="WhoAreWe" data-aos="fade-up">
+            <div class="fixedPos"></div>
+            <div class="WhoAreWeInfo ">
+                <h1 style="font-family: PoppinsB;">Our Events</h1>
+                <h4 style="font-family: Pacifico;color:#fff">events</h4>
+                <img src="./ICONS/Group 13@2x.png" alt="" width="100" height="auto">
+            </div>
+            <div class="WhoAreWetxt">
+                <ul>
+                    <li> New Events coming soon!<a href="#">More Info</a> </li>
+
+                </ul>
+            </div>
+
+        </section>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col md-6 information">
+                    <img src="./img/logo.png" alt="" width="100" height="auto" data-aos="fade-right" data-aos-easing="ease-in-out">
+                    <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet illum quo necessitatibus assumenda, non accusamus ratione, fugit harum beatae cumque voluptatum libero, mollitia nemo consequatur quibusdam. Perferendis, voluptas
+                        quo!
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Almousli-100462051659060/" target="_/blank"><i class="fa fa-facebook animated jello"></i></a>
+                        <a href="https://wa.me/963955639595" target="_/blank"><i class="fa fa-whatsapp animated jello"></i></a>
+                        <a href="https://www.instagram.com/almouslico/?hl=en" target="_/blank"><i class="fa fa-instagram animated jello"></i></a>
+                    </div>
+                </div>
+                <div class="col md-6 store">
+                    <h3 data-aos="fade-up">Store Information</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-right" data-aos-easing="ease-in-out">
+                        <li><a href="./en.html"> About us</a>
+                        </li>
+                        <li><a href="#WhoAreWe"> Who Are We</a>
+                        </li>
+                        <li>
+                            <a href="./allproducts.html">
+                            Our Products</a></li>
+                    </ul>
+                </div>
+                <div class="col md-6 contact">
+                    <h3 data-aos="fade-down">Contact Information</h3>
+                    <div class="line"></div>
+                    <ul data-aos="fade-left">
+                        <li>
+                            <img src="./ICONS/phone (3).png" alt="" width="35" height="auto"> <a href="tel:+963955639595"> +963 955 639 595 </a>
+                        </li>
+                        <li>
+                            <img src="./ICONS/pin (1).png" alt="" width="40" height="auto" style="margin-left: -2%;"> Al-Midan Damascus,Syria
+                        </li>
+                        <li>
+                            <img src="./ICONS/mail (3).png" alt="" width="35" height="auto"><a href="mailto:almouslico@gmail.com"> almouslico@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init()
+</script>
+
+</html>
