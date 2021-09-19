@@ -159,11 +159,13 @@ body {
     margin-top: 3%;
     position: relative;
     margin-left: 3%;
+    text-align: right;
 }
 
 .aletter {
     position: absolute;
     z-index: -1;
+    right: 5px;
 }
 
 .txtArea {
@@ -173,16 +175,23 @@ body {
     margin-top: 5%;
 }
 
+.AboutImgs {
+    position: relative;
+    right: -180px;
+    top: 40px;
+}
+
 .AboutImg {
     position: absolute;
     right: 0;
-    top: -50%;
+    top: -35%;
+    z-index: 2;
 }
 
 .DownImg {
     position: absolute;
     right: -10px;
-    top: 70%;
+    top: 80%;
 }
 
 
@@ -636,9 +645,16 @@ body {
         text-align: left;
         font-size: .7rem;
     }
+    .AboutImgs {
+        right: auto;
+        left: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center
+    }
     .AboutImg {
         height: 350px;
-        top: -30px;
+        top: 60px;
         right: 30px;
     }
     .DownImg {

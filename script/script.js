@@ -63,6 +63,7 @@ $(".sm").hover(function() {
 
     */
 
+/*
 $(window).resize(function() {
     if ($(window).width() <= 768) {
         $('.getRemoved').addClass('none')
@@ -70,12 +71,17 @@ $(window).resize(function() {
         $('.DownImg').css("height", "50")
         $('.AboutImg').css("height", "200")
         $('.no-fade').attr("data-aos", "fade-up-right")
+    } else {
+        $('.getRemoved').removeClass('none')
+        $('.getEdited').addClass('col-6').removeClass('col')
+        $('.DownImg').css("height", "120")
+        $('.AboutImg').css("height", "400")
+        $('.no-fade').attr("data-aos", "fade-up-right")
     }
     /*
         $(location).attr("href", "./mobileIndex.html")
     } else if ($(window).width() > 768) {
         $(location).attr("href", "./index.html")
     }
-    */
 })
-
+ */
